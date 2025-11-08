@@ -18,3 +18,6 @@ jobs:
         reponame: kiosque
         token: ${{ secrets.GITHUB_TOKEN }}
         cname: kiosque.pantagruweb.club
+    env:
+      VITE_PAPERLESS_API_URL: ${{ secrets.VITE_PAPERLESS_API_URL }}
+      VITE_PAPERLESS_TOKEN: ${{ secrets.VITE_PAPERLESS_TOKEN }}
