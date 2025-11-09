@@ -41,6 +41,8 @@ onMounted(async () => {
 .home {
   display: flex;
   flex-direction: column;
+  max-height: 100vh;
+  overflow-y: hidden;
   padding: 0 1.5rem 6rem;
   color: #1f2933;
 
@@ -52,6 +54,7 @@ onMounted(async () => {
     padding: 1.8rem 0 1.2rem 0;
     position: relative;
     z-index: 0;
+    color: $color-primary;
 
     &::before {
       content: "";
